@@ -1,0 +1,67 @@
+17:47:02,678  INFO ListTest:19 - ---- List Adventure starts ----
+17:47:02,712  INFO ListTest:32 - View All: [(1 Z M), (2 M A), (3 A Z), (4 Y K)]
+17:47:02,712  INFO ListTest:37 - View Particular:(4 Y K) at index: 3
+17:47:02,713  INFO ListTest:42 - Find Particular: (4 Y K) at Position: 3
+17:47:02,713  INFO ListTest:49 - Modified: [(1 Z M), (2 M A), (3 A Z), null]
+17:47:02,713  INFO ListTest:53 - After Removal: [(1 Z M), (2 M A), (3 A Z)]
+17:47:02,714  INFO ListTest:57 - Random Value: 7
+17:47:02,729  INFO ListTest:72 - Sorted Order: [(1 Z M), (2 M A), (3 A Z)]
+17:47:02,729  INFO ListTest:73 - ---- List Adventure ends ----
+08:03:12,128  INFO ListTest:19 - ---- List Adventure starts ----
+08:03:12,218  INFO ListTest:32 - View All: [(1 Z M), (2 M A), (3 A Z), (4 Y K)]
+08:03:12,219  INFO ListTest:37 - View Particular:(4 Y K) at index: 3
+08:03:12,219  INFO ListTest:42 - Find Particular: (4 Y K) at Position: 3
+08:03:12,220  INFO ListTest:49 - Modified: [(1 Z M), (2 M A), (3 A Z), null]
+08:03:12,220  INFO ListTest:53 - After Removal: [(1 Z M), (2 M A), (3 A Z)]
+08:03:12,222  INFO ListTest:57 - Random Value: 4
+08:03:12,231  INFO ListTest:72 - Sorted Order: [(1 Z M), (2 M A), (3 A Z)]
+08:03:12,232  INFO ListTest:73 - ---- List Adventure ends ----
+08:04:26,967  INFO ListTest:19 - ---- List Adventure starts ----
+08:04:26,974  INFO ListTest:32 - View All: [(1 Z M), (2 M A), (3 A Z), (3 A Z)]
+08:04:26,975  INFO ListTest:37 - View Particular:(3 A Z) at index: 2
+08:04:26,975  INFO ListTest:42 - Find Particular: (3 A Z) at Position: 2
+08:04:26,976  INFO ListTest:49 - Modified: [(1 Z M), (2 M A), null, (3 A Z)]
+08:04:26,976  INFO ListTest:53 - After Removal: [(1 Z M), (2 M A), (3 A Z)]
+08:04:26,977  INFO ListTest:57 - Random Value: 3
+08:04:26,991  INFO ListTest:72 - Sorted Order: [(1 Z M), (2 M A), (3 A Z)]
+08:04:26,992  INFO ListTest:73 - ---- List Adventure ends ----
+08:13:09,593  INFO ListTest:19 - ---- List Adventure starts ----
+08:13:09,615  INFO ListTest:32 - View All: [(1 Z M), (2 M A), (3 A Z), (3 A Z)]
+08:13:09,616  INFO ListTest:37 - View Particular:(3 A Z) at index: 2
+08:13:09,616  INFO ListTest:42 - Find Particular: (3 A Z) at Position: 2
+08:13:09,617  INFO ListTest:49 - Modified: [(1 Z M), (2 M A), (4 N B), (3 A Z)]
+08:13:09,617  INFO ListTest:53 - After Removal: [(1 Z M), (2 M A), (3 A Z)]
+08:13:09,617  INFO ListTest:57 - Random Value: 8
+08:13:09,628  INFO SortOnCourse:13 - Sorting on course...
+08:13:09,629  INFO SortOnCourse:13 - Sorting on course...
+08:13:09,629  INFO SortOnCourse:13 - Sorting on course...
+08:13:09,630  INFO ListTest:72 - Sorted Order: [(2 M A), (1 Z M), (3 A Z)]
+08:13:09,630  INFO ListTest:73 - ---- List Adventure ends ----
+08:19:39,750  INFO MapTest:16 - ---- Map Starts ----
+08:19:39,770  INFO MapTest:27 - Value: 2 for key: book
+08:19:39,772  INFO MapTest:32 - Key book is present.
+08:19:39,772  INFO MapTest:40 - Value 2 is present.
+08:19:39,773  INFO MapTest:51 - Removal fails parrot is not found
+08:19:39,773  INFO MapTest:55 - Loop thru the Map
+08:19:39,775  INFO MapTest:62 - ant   3
+08:19:39,784  INFO MapTest:62 - book   2
+08:19:39,785  INFO MapTest:62 - zebra   4
+08:19:39,786  INFO MapTest:65 - ---- /Map Ends ----
+09:36:34,138  INFO MapTest:16 - ---- Map Starts ----
+09:36:34,195  INFO MapTest:27 - Value: 2 for key: book
+09:36:34,195  INFO MapTest:32 - Key book is present.
+09:36:34,195  INFO MapTest:40 - Value 2 is present.
+09:36:34,196  INFO MapTest:51 - Removal fails parrot is not found
+09:36:34,196  INFO MapTest:55 - Loop thru the Map
+09:36:34,197  INFO MapTest:62 - ant   3
+09:36:34,203  INFO MapTest:62 - book   2
+09:36:34,203  INFO MapTest:62 - zebra   4
+09:36:34,203  INFO MapTest:65 - ---- /Map Ends ----
+18:18:45,180  INFO Log4jTest:21 - Info message!
+18:18:45,219  WARN Log4jTest:22 - Warning message!
+18:18:45,220 ERROR Log4jTest:23 - Error message!
+18:18:45,220 FATAL Log4jTest:24 - Fatal message!
+21:03:37,957  INFO Log4jTest:21 - Info message!
+21:03:38,003  WARN Log4jTest:22 - Warning message!
+21:03:38,003 ERROR Log4jTest:23 - Error message!
+21:03:38,003 FATAL Log4jTest:24 - Fatal message!
