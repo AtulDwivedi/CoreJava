@@ -1,6 +1,5 @@
 package corejava.CustomNetworking;
-import java.net.*;
-import java.io.*;
+import java.net.URL;
 
 
 public class ParseURL {

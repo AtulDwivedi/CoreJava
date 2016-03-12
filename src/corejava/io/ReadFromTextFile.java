@@ -14,11 +14,18 @@ public class ReadFromTextFile {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
-			fr=new FileReader("MyTextFile2.txt");
+			char c = 'A';
+			int asc = (int) c;
+			System.out.println(asc);
+			String message = null;
+			fr=new FileReader("MyTextFile.txt");
 			br =new BufferedReader(fr);
-			String message = br.readLine();
-
+			message = br.readLine();
 			System.out.println(message);
+			String [] msgArray = message.split(",");
+			for (int i = 0; i < msgArray.length; i++) {
+				System.out.println(msgArray[i]);	
+			}
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

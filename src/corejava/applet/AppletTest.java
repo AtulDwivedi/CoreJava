@@ -1,13 +1,10 @@
 package corejava.applet;
 
 import java.applet.Applet;
-import java.awt.Button;
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.Graphics;
 import java.awt.GridLayout;
-
-import java.awt.Graphics;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;

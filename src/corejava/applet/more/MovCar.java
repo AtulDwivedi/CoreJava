@@ -1,9 +1,10 @@
 package corejava.applet.more;
 
-import java.awt.event.*;
-import java.awt.*;
-import java.applet.*;
-import javax.swing.*;
+import java.applet.Applet;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.event.ComponentAdapter;
+import java.awt.event.ComponentEvent;
 
 /*
 <applet code="MovCar.class" width=800 height=500 name="app1">

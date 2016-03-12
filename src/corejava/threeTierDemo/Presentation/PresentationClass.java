@@ -1,5 +1,7 @@
 package corejava.threeTierDemo.Presentation;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 import corejava.threeTierDemo.ServiceLayer.ServiceFactory;
@@ -10,12 +12,12 @@ public class PresentationClass {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new
 				InputStreamReader(System.in));
-		
+
 		ServiceInterface obj = ServiceFactory.factoryMethod();
 		Scanner cs = new Scanner(System.in);
-		
+
 		showMenu(br, obj, cs);
-					
+
 	}
 
 	private static void showMenu(BufferedReader br, ServiceInterface obj,
@@ -24,10 +26,10 @@ public class PresentationClass {
 		System.out.println("1 Register");
 		System.out.println("2 Login");
 		System.out.println("0 Exit");
-		
-		
+
+
 		int val = cs.nextInt();
-		
+
 		if(val ==0) 
 			System.exit(0);
 		else if(val ==1)
@@ -36,7 +38,7 @@ public class PresentationClass {
 			login(br, obj, cs);
 		else
 			System.out.println("Wrong choice");
-		
+
 	}
 
 	private static void login(BufferedReader br, ServiceInterface obj,
@@ -47,7 +49,7 @@ public class PresentationClass {
 		for (int i = 0; i < 2; i++) {
 			str[i] = br.readLine();
 		}
-		
+
 		if (obj.login(str[0], str[1])) {
 			System.out.println("Hello "+str[0]);
 			showMenu(br, obj, cs);
@@ -75,15 +77,15 @@ public class PresentationClass {
 			System.out.println("Registration failed");
 			showMenu(br, obj, cs);
 		}
-		
+
 
 	}
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
 	private static void myMenu(BufferedReader br, ServiceInterface obj,
 			Scanner cs) throws IOException {
 		// TODO Auto-generated method stub
@@ -99,8 +101,8 @@ public class PresentationClass {
 		else
 			System.out.println("Wrong choice");
 	}
-	
-		
+
+
 	private static void update(BufferedReader br, ServiceInterface obj, Scanner cs)
 			throws IOException {
 		// TODO Auto-generated method stub
@@ -118,6 +120,5 @@ public class PresentationClass {
 			System.out.println("Updation failed");
 			myMenu(br, obj, cs);
 		}
-	
-	
-	}}
+	}
+}

@@ -1,7 +1,8 @@
 package corejava.applet.more;
 
-import java.applet.*;
-import java.awt.*;
+import java.applet.Applet;
+import java.awt.Color;
+import java.awt.Graphics;
 public class MainApplet extends Applet
 {
 public void init()

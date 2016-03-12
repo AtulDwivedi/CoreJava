@@ -1,6 +1,8 @@
 package corejava.CustomNetworking.ChatUDPIP;
 
-import java.net.*;
+import java.net.DatagramPacket;
+import java.net.InetAddress;
+import java.net.MulticastSocket;
 public class ChatServer {
 	public static void main(String args[])throws Exception {
 		

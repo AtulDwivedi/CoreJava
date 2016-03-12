@@ -1,8 +1,11 @@
 package corejava.applet.more;
 
-import java.applet.*;
-import java.awt.*;
-import java.awt.event.*;
+import java.applet.Applet;
+import java.applet.AppletContext;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 public class InterApplet2 extends Applet
 {
 int x1,y1,x2,y2;

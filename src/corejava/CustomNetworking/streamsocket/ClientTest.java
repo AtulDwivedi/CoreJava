@@ -2,7 +2,6 @@ package corejava.CustomNetworking.streamsocket;
 
 // Fig. 27.8: ClientTest.java
 // Class that tests the Client.
-import javax.swing.JFrame;
 
 public class ClientTest 
 {

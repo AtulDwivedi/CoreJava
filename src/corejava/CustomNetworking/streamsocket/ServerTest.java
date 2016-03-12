@@ -2,7 +2,6 @@ package corejava.CustomNetworking.streamsocket;
 
 // Fig. 27.6: ServerTest.java
 // Test the Server application.
-import javax.swing.JFrame;
 
 public class ServerTest
 {

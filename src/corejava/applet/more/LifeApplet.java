@@ -5,8 +5,9 @@ package corejava.applet.more;
 <applet code="LifeApplet" height="200" width="200">
 </applet>
 */
-import java.applet.*;
-import java.awt.*;
+import java.applet.Applet;
+import java.awt.Color;
+import java.awt.Graphics;
 public class LifeApplet extends Applet
 {
 String msg;

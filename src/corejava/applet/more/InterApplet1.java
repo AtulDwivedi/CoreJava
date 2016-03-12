@@ -1,7 +1,8 @@
 package corejava.applet.more;
 
-import java.applet.*;
-import java.awt.*;
+import java.applet.Applet;
+import java.awt.Color;
+import java.awt.Graphics;
 public class InterApplet1 extends Applet
 {
 int x1,y1,x2,y2;

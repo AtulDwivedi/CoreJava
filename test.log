@@ -65,3 +65,32 @@
 21:03:38,003  WARN Log4jTest:22 - Warning message!
 21:03:38,003 ERROR Log4jTest:23 - Error message!
 21:03:38,003 FATAL Log4jTest:24 - Fatal message!
+19:09:49,615  INFO ListTest:19 - ---- List Adventure starts ----
+19:09:49,615  INFO ListTest:37 - View All: [(1 Z M), (2 M A), (3 A Z), (3 A Z)]
+19:09:49,615  INFO ListTest:42 - View Particular:(3 A Z) at index: 2
+19:09:49,615  INFO ListTest:47 - Find Particular: (3 A Z) at Position: 2
+19:09:49,615  INFO ListTest:54 - Modified: [(1 Z M), (2 M A), (4 N B), (3 A Z)]
+19:09:49,615  INFO ListTest:58 - After Removal: [(1 Z M), (2 M A), (3 A Z)]
+19:09:49,615  INFO ListTest:62 - Random Value: 1
+19:09:49,615  INFO ListTest:77 - Sorted Order: [(1 Z M), (2 M A), (3 A Z)]
+19:09:49,615  INFO ListTest:78 - ---- List Adventure ends ----
+22:14:39,069  INFO MapTest:17 - ---- Map Starts ----
+22:14:39,069  INFO MapTest:28 - Value: 2 for key: book
+22:14:39,069  INFO MapTest:33 - Key book is present.
+22:14:39,069  INFO MapTest:41 - Value 2 is present.
+22:14:39,069  INFO MapTest:52 - Removal fails parrot is not found
+22:14:39,069  INFO MapTest:56 - Loop thru the Map
+22:14:39,069  INFO MapTest:63 - ant   3
+22:14:39,069  INFO MapTest:63 - book   2
+22:14:39,069  INFO MapTest:63 - zebra   4
+22:14:39,069  INFO MapTest:72 - ---- /Map Ends ----
+22:17:19,659  INFO MapTest:17 - ---- Map Starts ----
+22:17:19,659  INFO MapTest:28 - Value: 2 for key: book
+22:17:19,659  INFO MapTest:33 - Key book is present.
+22:17:19,659  INFO MapTest:41 - Value 2 is present.
+22:17:19,659  INFO MapTest:52 - Removal fails parrot is not found
+22:17:19,659  INFO MapTest:56 - Loop thru the Map
+22:17:19,659  INFO MapTest:63 - ant   3
+22:17:19,659  INFO MapTest:63 - book   2
+22:17:19,659  INFO MapTest:63 - zebra   4
+22:17:19,659  INFO MapTest:72 - ---- /Map Ends ----
