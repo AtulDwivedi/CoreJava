@@ -1,6 +1,5 @@
 package corejava.designpattern.creational.singleton;
 
-import org.hamcrest.core.IsInstanceOf;
 
 public class MyLogger {
 	
