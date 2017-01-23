@@ -12,7 +12,7 @@ public class AnnotationTest {
 		// TODO Auto-generated method stub
 		Class clsObj=null;
 		try{
-			clsObj = Class.forName("UsingAnnotation");
+			clsObj = Class.forName("corejava.annotation.UsingAnnotation");
 		}
 		catch(ClassNotFoundException cnfe){
 			cnfe.printStackTrace();
@@ -26,26 +26,20 @@ public class AnnotationTest {
 				mthd.invoke(null, null);
 			}
 		} catch (IllegalAccessException e1) {
-			// TODO: handle exception
 			e1.printStackTrace();
 		}
 		catch (IllegalArgumentException e2) {
-			// TODO: handle exception
 			e2.printStackTrace();
 		}
 		catch (InvocationTargetException e3) {
-			// TODO: handle exception
 			e3.printStackTrace();
 		}
 		catch (SecurityException e4) {
-			// TODO: handle exception
 			e4.printStackTrace();
 		}
 		catch (NoSuchMethodException e5) {
-			// TODO: handle exception
 			e5.printStackTrace();
 		}
-
 	}
 
 }

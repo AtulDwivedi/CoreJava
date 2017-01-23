@@ -6,58 +6,23 @@ public class StringEquality {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String str1 = "str";
-		String str2 = "str";
+		String strLiteral1 = "str";
+		String strLiteral2 = "str";
 		
-		if(str1.equals(str2)){
-			System.out.println("true");
-		}
-		else{
-			System.out.println("false");
-		}
+		System.out.println("strLiteral1.equals(strLiteral2): "+strLiteral1.equals(strLiteral2));
+		System.out.println("strLiteral1 == strLiteral2: "+(strLiteral1 == strLiteral2));
 		
-		if (str1 == str2) {
-			System.out.println("true");
-		} else {
-			System.out.println("false");
-		}
+		String strObj1 = new String("str");
+		String strObj2 = new String("str");
 		
-		String str3 = new String("str");
-		String str4 = new String("str");
+		System.out.println("strObj1.equals(strObj2): "+strObj1.equals(strObj2));
+		System.out.println("strObj1 == strObj2: "+(strObj1 == strObj2));
 		
-		if(str3.equals(str4)){
-			System.out.println("true");
-		}
-		else{
-			System.out.println("false");
-		}
+		String strObj3 = new String("str");
+		String strLiteral3 = "str";
 		
-		if (str3 == str4) {
-			System.out.println("true");
-		} else {
-			System.out.println("false");
-		}
-		
-		String str5 = new String("str");
-		String str6 = "str";
-		
-		if(str5.equals(str6)){
-			System.out.println("true");
-		}
-		else{
-			System.out.println("false");
-		}
-		if (str5 == str6) {
-			System.out.println("true");
-		} else {
-			System.out.println("false");
-		}
-		
-		if (new String("test").equals("test")) {
-			System.out.println("new String("+"test"+").equals("+"test"+") says:"+"TRUE");
-		} else {
-			System.out.println("new String("+"test"+").equals("+"test"+") says:"+"FALSE");
-		}
+		System.out.println("strObj3.equals(strLiteral3): "+strObj3.equals(strLiteral3));
+		System.out.println("strObj3 == strLiteral3: "+(strObj3 == strLiteral3));
 	}
 
 }
