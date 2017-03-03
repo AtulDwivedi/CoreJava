@@ -23,7 +23,14 @@ public class AnnotationTest {
 			{
 				MyAnnotation myAnnObj = mthd.getAnnotation(MyAnnotation.class);
 				int level = myAnnObj.level();
-				mthd.invoke(null, null);
+				if(level == 1){
+					System.out.println(level);
+					mthd.invoke(null, null);
+				}
+				else if(level == 0){
+					System.out.println(level);
+				}
+				
 			}
 		} catch (IllegalAccessException e1) {
 			e1.printStackTrace();
